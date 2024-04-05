@@ -80,7 +80,7 @@ body {
   font-size: 10px;
 }
 
-/* キービジュアル */
+/* Clave visual */
 .key {
   height: 500px;
   background: center / cover no-repeat url("../images/sample_key.jpg");
@@ -93,7 +93,7 @@ body {
   font-size: 2.5rem;
 }
 
-/* コンセプトセクション */
+/* sección de concepto */
 .concept_inner {
   display: flex;
   justify-content: space-between;
@@ -105,7 +105,7 @@ body {
   width: 35%;
 }
 
-/* セクション共通 */
+/* Común a las secciones */
 .section_inner {
   padding: 50px 10% 30px;
 }
@@ -115,7 +115,7 @@ body {
   margin-bottom: 50px;
 }
 
-/* 店舗情報セクション */
+/* Sección de información de la tienda */
 .info {
   display: flex;
 }
@@ -135,7 +135,7 @@ body {
   height: 100%;
 }
 
-/* メニューセクション */
+/* sección de menú */
 .menu_section {
   background: url("../images/sample_menu_bg.jpg") no-repeat bottom;
   background-attachment: fixed;
@@ -171,7 +171,7 @@ body {
 }
 
 
-/* メニューページ */
+/* página del menú */
 .menu_key {
   height: 100px;
   background: url("../images/sample_key.jpg") no-repeat center;
@@ -185,7 +185,7 @@ body {
   width: calc(100% - 200px);
 }
 
-/* メニューページ - サイドメニュー */
+/* Página de menú - menú lateral */
 .side_menu {
   width: 200px;
 }
@@ -210,7 +210,7 @@ body {
   margin: 30px 0;
 }
 
-/* メニューページ - メイン */
+/*Página de menú - Principal*/
 .menu_image {
   width: 100%;
   height: 500px;
@@ -226,20 +226,40 @@ body {
 }
 
 .pancake_menu {
-  background: rgba(83,71,65,.5);
-  padding: 20px;
-  margin-top: 50px;
+  display: flex;
+  background: rgba(83,71,65,.3);
+  flex-direction: column; /* Cambia la disposición a vertical */
+  gap: 10px; /* Espacio entre elementos */
+  padding: 10px; /* Espaciado interno */
+  border-bottom: 1px solid #ccc; /* Línea divisoria entre elementos */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  color: #000000; /* Color del texto */
 }
 
-/* メニューアイテムコンポーネント */
+/* componente de elemento de menú */
 .menu_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu_item_vertical {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  margin-bottom: 20px;
+}
+
+.menu_list_home {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .menu_list_recommended {
-  /* トップページのメニューリストには別途paddingの設定（マルチクラス） */
+  /* Configuraciones de relleno separadas para la lista del menú en la página superior (multiclase) */
   padding-bottom: 50px;
 }
 
@@ -274,7 +294,7 @@ body {
   font-family: 'Noto Serif JP', serif;
 }
 
-/* ボタンコンポーネント */
+/* componente del botón */
 .btn {
   padding: 10px 20px;
   border: none;
