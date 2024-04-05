@@ -80,7 +80,7 @@ body {
   font-size: 10px;
 }
 
-/* キービジュアル */
+/* Clave visual */
 .key {
   height: 500px;
   background: center / cover no-repeat url("../images/sample_key.jpg");
@@ -93,7 +93,7 @@ body {
   font-size: 2.5rem;
 }
 
-/* コンセプトセクション */
+/* sección de concepto */
 .concept_inner {
   display: flex;
   justify-content: space-between;
@@ -105,7 +105,7 @@ body {
   width: 35%;
 }
 
-/* セクション共通 */
+/* Común a las secciones */
 .section_inner {
   padding: 50px 10% 30px;
 }
@@ -115,7 +115,7 @@ body {
   margin-bottom: 50px;
 }
 
-/* 店舗情報セクション */
+/* Sección de información de la tienda */
 .info {
   display: flex;
 }
@@ -135,7 +135,7 @@ body {
   height: 100%;
 }
 
-/* メニューセクション */
+/* sección de menú */
 .menu_section {
   background: url("../images/sample_menu_bg.jpg") no-repeat bottom;
   background-attachment: fixed;
@@ -225,56 +225,76 @@ body {
   margin-bottom: 30px;
 }
 
+/* inicio componentes menu*/
 .pancake_menu {
   background: rgba(83,71,65,.5);
   padding: 20px;
   margin-top: 50px;
 }
 
-/* メニューアイテムコンポーネント */
+/* componente de elemento de menú */
 .menu_list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: flex;  /* Muestra los elementos secundarios en línea (horizontalmente) */
+  justify-content: space-between;  /* Distribuye el espacio entre los elementos secundarios */
+  flex-wrap: wrap;  /* Permite que los elementos secundarios se envuelvan a la siguiente línea si no hay suficiente espacio */
+}
+
+.menu_list_menu {
+  display: flex;  /* Muestra los elementos secundarios en línea (horizontalmente) */
+  flex-direction: column;  /* Cambiado a column para ordenar verticalmente */
+  justify-content: space-between;  /* Distribuye el espacio entre los elementos secundarios */
 }
 
 .menu_list_recommended {
-  /* トップページのメニューリストには別途paddingの設定（マルチクラス） */
+  /* Configuraciones de relleno separadas para la lista del menú en la página superior (multiclase) */
   padding-bottom: 50px;
 }
 
 .menu_item {
-  width: 49%;
-  display: flex;
-  flex-direction: row-reverse;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
-  margin-bottom: 20px;
+  width: 49%;  /* Ocupa el 49% del contenedor principal (dos elementos por fila) */
+  display: flex;  /* Muestra los elementos secundarios en línea (horizontalmente) */
+  flex-direction: row-reverse;  /* Ordena los elementos secundarios en dirección opuesta (de derecha a izquierda) */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);  /* Agrega una sombra sutil */
+  margin-bottom: 20px;  /* Espacio inferior entre elementos */
 }
+
+.menu_item_menu {
+  width: 100%;  /* Ocupa el 49% del contenedor principal (dos elementos por fila) */
+  display: flex;  /* Muestra los elementos secundarios en línea (horizontalmente) */
+  flex-direction: row-reverse;  /* Ordena los elementos secundarios en dirección opuesta (de derecha a izquierda) */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);  /* Agrega una sombra sutil */
+  margin-bottom: 20px;  /* Espacio inferior entre elementos */
+}
+
 .menu_item_content {
-  width: 45%;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: #fff;
+  width: 45%;  /* Ocupa el 45% del contenedor principal */
+  padding: 10px;  /* Espaciado interno del contenido */
+  display: flex;  /* Muestra los elementos secundarios en línea (horizontalmente) */
+  flex-direction: column;  /* Apila los elementos secundarios verticalmente */
+  justify-content: space-between;  /* Distribuye el espacio verticalmente entre los elementos secundarios */
+  background: #fff;  /* Fondo blanco */
 }
+
 .menu_item_image {
-  width: 55%;
-  object-fit: cover;
-  height: 300px;
+  width: 55%;  /* Ocupa el 55% del contenedor principal */
+  object-fit: cover;  /* Ajusta el tamaño del elemento manteniendo la proporción y cortando si es necesario */
+  height: 300px;  /* Altura fija del elemento de imagen */
 }
+
 .menu_item_price {
-  color: #42210b;
-  font-size: 18px;
-  text-align: right;
+  color: #42210b;  /* Color del texto */
+  font-size: 18px;  /* Tamaño de fuente */
+  text-align: right;  /* Alinea el texto a la derecha */
 }
 
 .menu_item_title {
-  font-size: 18px;
-  font-family: 'Noto Serif JP', serif;
+  font-size: 18px;  /* Tamaño de fuente */
+  font-family: 'Noto Serif JP', serif;  /* Tipo de fuente */
 }
+/*finde coponentes menu */
 
-/* ボタンコンポーネント */
+
+/* componente del botón */
 .btn {
   padding: 10px 20px;
   border: none;
