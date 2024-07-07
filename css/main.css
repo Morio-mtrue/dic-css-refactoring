@@ -223,6 +223,7 @@ body {
   font-family: 'Noto Serif JP', serif;
   font-size: 20px;
   margin-bottom: 30px;
+  text-align: right
 }
 
 .pancake_menu {
@@ -236,6 +237,13 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.menu_list_pk {
+  display: block;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1700px;
 }
 
 .menu_list_recommended {
@@ -258,6 +266,7 @@ body {
   justify-content: space-between;
   background: #fff;
 }
+
 .menu_item_image {
   width: 55%;
   object-fit: cover;
