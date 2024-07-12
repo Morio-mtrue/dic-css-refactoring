@@ -41,17 +41,19 @@ h1 {
   font-size: 2em;
   margin: 0;
 }
+
 li {
   list-style: none;
 }
+
 p, ul {
   margin: 0;
   padding: 0;
 }
-div,li {
+
+div, li {
   box-sizing: border-box;
 }
-
 
 /* Grouping content
    ========================================================================== */
@@ -203,13 +205,14 @@ select { /* 1 */
  * Correct the inability to style clickable types in iOS and Safari.
  */
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
-
+ button,
+ [type="button"],
+ [type="reset"],
+ [type="submit"] {
+   -webkit-appearance: button; /* WebKit/Blink browsers */
+   -moz-appearance: button; /* Firefox */
+   appearance: button; /* Standard */
+ }
 /**
  * Remove the inner border and padding in Firefox.
  */
@@ -298,11 +301,12 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 
-[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+ [type="search"] {
+  -webkit-appearance: textfield; /* WebKit/Blink browsers */
+  -moz-appearance: textfield; /* Firefox */
+  appearance: textfield; /* Standard */
+  outline-offset: -2px; /* Ensuring consistent outline offset */
 }
-
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
@@ -358,5 +362,3 @@ template {
 [hidden] {
   display: none;
 }
-
-

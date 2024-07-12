@@ -51,8 +51,9 @@
 }
 
 .delete, .modal-close {
-  -moz-appearance: none;
-  -webkit-appearance: none;
+  -moz-appearance: none;    /* Prefijo para Firefox */
+  -webkit-appearance: none; /* Prefijo para WebKit (Safari, Chrome) */
+  appearance: none;         /* Propiedad estándar */
   background-color: rgba(10, 10, 10, 0.2);
   border: none;
   border-radius: 290486px;
@@ -172,8 +173,9 @@
 .pagination-next,
 .pagination-link,
 .pagination-ellipsis {
-  -moz-appearance: none;
-  -webkit-appearance: none;
+  -moz-appearance: none;    /* Prefijo para Firefox */
+  -webkit-appearance: none; /* Prefijo para WebKit (Safari, Chrome) */
+  appearance: none;         /* Propiedad estándar */
   align-items: center;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -2381,8 +2383,9 @@ fieldset[disabled] .button {
 }
 
 .progress {
-  -moz-appearance: none;
-  -webkit-appearance: none;
+  -moz-appearance: none;    /* Prefijo para Firefox */
+  -webkit-appearance: none; /* Prefijo para WebKit (Safari, Chrome) */
+  appearance: none;         /* Propiedad estándar */
   border: none;
   border-radius: 290486px;
   display: block;
@@ -5242,7 +5245,8 @@ button.dropdown-item.is-active {
   flex-direction: column;
   max-height: calc(100vh - 40px);
   overflow: hidden;
-  -ms-overflow-y: visible;
+  -ms-overflow-y: visible; /* Prefijo para Internet Explorer */
+  overflow-y: visible;     /* Propiedad estándar */
 }
 
 .modal-card-head,

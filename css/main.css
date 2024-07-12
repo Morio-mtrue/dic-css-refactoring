@@ -225,12 +225,31 @@ body {
   margin-bottom: 30px;
 }
 
-.pancake_menu {
+.pancake_menu{
   background: rgba(83,71,65,.5);
   padding: 20px;
   margin-top: 50px;
 }
+.pancake_menu .menu_list {
+  display: block;
+}
+.pancake_menu .menu_item {
+  width: 100%;
+  display: flex;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  margin-bottom: 20px;
+}
 
+.pancake_menu .menu_item_image {
+  width: 100; /* Ancho de la imagen*/
+  object-fit: cover;
+}
+
+.pancake_menu .menu_item_content {
+  width: 60%; /* Ancho del contenido */
+  padding: 10px;
+  background: #fff;
+}
 /* メニューアイテムコンポーネント */
 .menu_list {
   display: flex;
