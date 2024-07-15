@@ -225,10 +225,13 @@ body {
   margin-bottom: 30px;
 }
 
-.pancake_menu {
-  background: rgba(83,71,65,.5);
-  padding: 20px;
-  margin-top: 50px;
+.pancake_menu .menu_list {
+  flex-wrap: wrap;
+}
+
+.pancake_menu .menu_item {
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 /* メニューアイテムコンポーネント */
