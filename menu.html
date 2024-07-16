@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
-    <title>DIC cafe</title>
+    <title>DIC Cafe</title>
+    <!-- Importación de hojas de estilo -->
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
@@ -9,119 +10,100 @@
   <body>
     <header>
       <nav class="header_nav">
-        <a href="index.html"><img src="images/sample_logo_k.png" class="logo"></a>
+        <!-- Logo del sitio -->
+        <a href="index.html"><img src="images/sample_logo_k.png" class="logo" alt="Logo de DIC Cafe"></a>
+        <!-- Menú de navegación principal -->
         <ul class="global_nav">
-          <a href="index.html" class="global_nav_item">
-            <li>Home</li>
-          </a>
-          <a href="menu.html" class="global_nav_item">
-            <li>Menu</li>
-          </a>
-          <a href="contact.html" class="global_nav_item">
-            <li>Contact</li>
-          </a>
+          <li><a href="index.html" class="global_nav_item">Home</a></li>
+          <li><a href="menu.html" class="global_nav_item">Menu</a></li>
+          <li><a href="contact.html" class="global_nav_item">Contact</a></li>
         </ul>
       </nav>
-      <div class="menu_key section_inner">
-      </div>
+      <div class="menu_key section_inner"></div>
     </header>
+
     <div class="wrapper section_inner">
+      <!-- Menú lateral -->
       <nav class="side_menu">
-        <h1 class="side_menu_title">MENU</h1>
+        <h1 class="side_menu_title">MENÚ</h1>
         <ul>
-          <a href="blueberry_pancakes.html" class="side_menu_item">
-            <li>ブルーベリーパンケーキ</li>
-          </a>
-          <a href="strawberry_pancakes.html" class="side_menu_item">
-            <li>ストロベリーパンケーキ</li>
-          </a>
-          <a href="#" class="side_menu_item">
-            <li>ブレンドコーヒー</li>
-          </a>
-          <a href="#" class="side_menu_item">
-            <li>カフェラテ</li>
-          </a>
-          <a href="#" class="side_menu_item">
-            <li>アートコーヒー</li>
-          </a>
-          <a href="#" class="side_menu_item">
-            <li>アイスコーヒー</li>
-          </a>
+          <li><a href="blueberry_pancakes.html" class="side_menu_item">Panqueques de Arándano</a></li>
+          <li><a href="strawberry_pancakes.html" class="side_menu_item">Panqueques de Fresa</a></li>
+          <li><a href="#" class="side_menu_item">Café Mezclado</a></li>
+          <li><a href="#" class="side_menu_item">Café Latte</a></li>
+          <li><a href="#" class="side_menu_item">Arte en Café</a></li>
+          <li><a href="#" class="side_menu_item">Café Helado</a></li>
         </ul>
-        <aside class="side_ad">
-          営業日カレンダーはこちらから
-        </aside>
+        <aside class="side_ad">Haga clic aquí para ver el calendario de días hábiles</aside>
       </nav>
+
+      <!-- Contenido principal -->
       <article class="main">
         <section>
-          <img src="images/sample_pancake1.jpg" class="menu_image">
-          <h1 class="menu_name">ブルーベリーパンケーキ</h1>
+          <img src="images/sample_pancake1.jpg" class="menu_image" alt="Panqueques de Arándano">
+          <h1 class="menu_name">Panqueques de Arándano</h1>
           <p class="menu_price">¥1,200</p>
           <p>
-            こだわりの小麦粉と卵を使い、ふっくらと焼き上げたパンケーキの上に、フレッシュなブルーベリーをトッピングしました。
-            お好みで上品な甘さのメープルシロップをかけてお召し上がりください。
+            Estos panqueques esponjosos están hechos con harina y huevos seleccionados cuidadosamente, cubiertos con arándanos frescos.
+            Disfrútalos con jarabe de arce de sabor refinado.
           </p>
         </section>
-       
+        
         <section class="pancake_menu">
-          <h1 class="section_title">Pancake menu</h1>
-          <ul class="menu_list">
-            <li class="menu_item">
+          <h1 class="section_title">Menú de Panqueques</h1>
+          <ul class="menu_list1">
+            <!-- Elemento del menú: Panqueques de Arándano -->
+            <li class="menu_item1">
               <div class="menu_item_content">
-                <h2 class="menu_item_title">ブルーベリーパンケーキ</h2>
+                <h2 class="menu_item_title">Panqueques de Arándano</h2>
                 <p class="menu_item_price">¥1,200</p>
-                <button class="btn btn-disabled">品切れ中</button>
+                <button class="btn btn-disabled">Agotado</button>
               </div>
-              <img src="images/sample_pancake1.jpg" class="menu_item_image">
+              <img src="images/sample_pancake1.jpg" class="menu_item_image" alt="Panqueques de Arándano">
             </li>
-            <li class="menu_item">
+            <!-- Elemento del menú: Panqueques de Fresa -->
+            <li class="menu_item1">
               <div class="menu_item_content">
-                <h2 class="menu_item_title">ストロベリーパンケーキ</h2>
+                <h2 class="menu_item_title">Panqueques de Fresa</h2>
                 <p class="menu_item_price">¥1,300</p>
-                <button class="btn btn-detail">詳しく見る</button>
+                <button class="btn btn-detail">Ver Detalles</button>
               </div>
-              <img src="images/sample_pancake2.jpg" class="menu_item_image">
+              <img src="images/sample_pancake2.jpg" class="menu_item_image" alt="Panqueques de Fresa">
             </li>
-            <li class="menu_item">
+            <!-- Elemento del menú: Panqueques Esponjosos -->
+            <li class="menu_item1">
               <div class="menu_item_content">
-                <h2 class="menu_item_title">ふわふわパンケーキ</h2>
+                <h2 class="menu_item_title">Panqueques Esponjosos</h2>
                 <p class="menu_item_price">¥1,100</p>
-                <button class="btn btn-detail">詳しく見る</button>
+                <button class="btn btn-detail">Ver Detalles</button>
               </div>
-              <img src="images/sample_pancake3.jpg" class="menu_item_image">
+              <img src="images/sample_pancake3.jpg" class="menu_item_image" alt="Panqueques Esponjosos">
             </li>
-            <li class="menu_item">
+            <!-- Elemento del menú: Panqueque de Plátano -->
+            <li class="menu_item1">
               <div class="menu_item_content">
-                <h2 class="menu_item_title">バナナパンケーキ</h2>
+                <h2 class="menu_item_title">Panqueque de Plátano</h2>
                 <p class="menu_item_price">¥1,200</p>
-                <button class="btn btn-detail">詳しく見る</button>
+                <button class="btn btn-detail">Ver Detalles</button>
               </div>
-              <img src="images/sample_pancake4.jpg" class="menu_item_image">
+              <img src="images/sample_pancake4.jpg" class="menu_item_image" alt="Panqueque de Plátano">
             </li>
           </ul>
         </section>
       </article>
     </div>
+    
+    <!-- Pie de página -->
     <footer class="footer">
       <nav>
         <ul class="footer_nav">
-          <a href="index.html" class="footer_nav_item">
-            <li>Home</li>
-          </a>
-          <a href="menu.html" class="footer_nav_item">
-            <li>Menu</li>
-          </a>
-          <a href="contact.html" class="footer_nav_item">
-            <li>Contact</li>
-          </a>
-          <a href="index.html" class="footer_nav_item">
-            <li>
-              <img src="images/sample_logo_w.png" class="footer_logo">
-            </li>
-          </a>
+          <li><a href="index.html" class="footer_nav_item">Inicio</a></li>
+          <li><a href="menu.html" class="footer_nav_item">Menú</a></li>
+          <li><a href="contact.html" class="footer_nav_item">Contacto</a></li>
+          <li><a href="index.html" class="footer_nav_item"><img src="images/sample_logo_w.png" class="footer_logo" alt="Logo de DIC Cafe"></a></li>
         </ul>
       </nav>
-      <p class="footer_right">© DIVE INTO CODE Corp. All RIGHTS RESERVED.</p>
+      <p class="footer_right">© DIVE INTO CODE Corp. Todos los derechos reservados.</p>
     </footer>
   </body>
 </html>

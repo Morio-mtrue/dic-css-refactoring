@@ -1,4 +1,5 @@
 @import 'bulma/css/bulma.css';
+
 html {
   height: 100%;
 }
@@ -11,7 +12,7 @@ body {
   text-align: center;
 }
 
-/* header */
+/* Cabecera */
 .header_nav {
   background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
   display: flex;
@@ -27,7 +28,7 @@ body {
   display: flex;
   align-items: center;
 }
-.logo img{
+.logo img {
   width: 100%;
 }
 .global_nav {
@@ -48,7 +49,7 @@ body {
   color: #42210b;
 }
 
-/* footer */
+/* Pie de página */
 .footer {
   width: 100%;
   background: #251e19;
@@ -80,7 +81,7 @@ body {
   font-size: 10px;
 }
 
-/* キービジュアル */
+/* Imagen principal */
 .key {
   height: 500px;
   background: center / cover no-repeat url("../images/sample_key.jpg");
@@ -89,11 +90,11 @@ body {
   justify-content: center;
   font-family: 'Noto Serif JP', serif;
 }
-.key h1{
+.key h1 {
   font-size: 2.5rem;
 }
 
-/* コンセプトセクション */
+/* Sección de concepto */
 .concept_inner {
   display: flex;
   justify-content: space-between;
@@ -105,7 +106,7 @@ body {
   width: 35%;
 }
 
-/* セクション共通 */
+/* Sección común */
 .section_inner {
   padding: 50px 10% 30px;
 }
@@ -115,7 +116,7 @@ body {
   margin-bottom: 50px;
 }
 
-/* 店舗情報セクション */
+/* Sección de información de la tienda */
 .info {
   display: flex;
 }
@@ -127,7 +128,7 @@ body {
   width: 100%;
   padding-top: 56.25%;
 }
-.frame_child{
+.frame_child {
   position: absolute;
   top: 0;
   right: 0;
@@ -135,7 +136,7 @@ body {
   height: 100%;
 }
 
-/* メニューセクション */
+/* Sección de menú */
 .menu_section {
   background: url("../images/sample_menu_bg.jpg") no-repeat bottom;
   background-attachment: fixed;
@@ -149,7 +150,6 @@ body {
   border-bottom: solid #42210b 1px;
   margin-bottom: 20px;
 }
-
 .coffee_menu {
   background: #fff;
   padding: 20px;
@@ -170,8 +170,7 @@ body {
   padding: 10px;
 }
 
-
-/* メニューページ */
+/* Página de menú */
 .menu_key {
   height: 100px;
   background: url("../images/sample_key.jpg") no-repeat center;
@@ -185,7 +184,7 @@ body {
   width: calc(100% - 200px);
 }
 
-/* メニューページ - サイドメニュー */
+/* Página de menú - Menú lateral */
 .side_menu {
   width: 200px;
 }
@@ -210,7 +209,7 @@ body {
   margin: 30px 0;
 }
 
-/* メニューページ - メイン */
+/* Página de menú - Contenido principal */
 .menu_image {
   width: 100%;
   height: 500px;
@@ -224,27 +223,35 @@ body {
   font-size: 20px;
   margin-bottom: 30px;
 }
-
 .pancake_menu {
   background: rgba(83,71,65,.5);
   padding: 20px;
   margin-top: 50px;
 }
 
-/* メニューアイテムコンポーネント */
+/* Componentes de elementos del menú */
 .menu_list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
+.menu_list1 {
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 .menu_list_recommended {
-  /* トップページのメニューリストには別途paddingの設定（マルチクラス） */
   padding-bottom: 50px;
 }
-
 .menu_item {
   width: 49%;
+  display: flex;
+  flex-direction: row-reverse;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  margin-bottom: 20px;
+}
+.menu_item1 {
+  width: 100%;
   display: flex;
   flex-direction: row-reverse;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
@@ -268,20 +275,19 @@ body {
   font-size: 18px;
   text-align: right;
 }
-
 .menu_item_title {
   font-size: 18px;
   font-family: 'Noto Serif JP', serif;
 }
 
-/* ボタンコンポーネント */
+/* Componentes de botones */
 .btn {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
 }
 .btn-detail {
-  background:#2e58a6;
+  background: #2e58a6;
   color: #fff;
 }
 .btn-disabled {
