@@ -237,7 +237,11 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
+.menu_list_menu {
+  display: block;
+  /*justify-content: space-between;
+  flex-wrap: wrap;*/
+}
 .menu_list_recommended {
   /* トップページのメニューリストには別途paddingの設定（マルチクラス） */
   padding-bottom: 50px;
@@ -245,6 +249,13 @@ body {
 
 .menu_item {
   width: 49%;
+  display: flex;
+  flex-direction: row-reverse;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  margin-bottom: 20px;
+}
+.menu_item_menu {
+  width: 100%;
   display: flex;
   flex-direction: row-reverse;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
@@ -258,11 +269,24 @@ body {
   justify-content: space-between;
   background: #fff;
 }
+/*.menu_item_content_menu {
+  width: 45%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+}*/
 .menu_item_image {
   width: 55%;
   object-fit: cover;
   height: 300px;
 }
+/*.menu_item_image_menu {
+  width: 55%;
+  object-fit: cover;
+  height: 300px;
+}*/
 .menu_item_price {
   color: #42210b;
   font-size: 18px;
