@@ -273,7 +273,12 @@ body {
   font-size: 18px;
   font-family: 'Noto Serif JP', serif;
 }
-
+.pancake_menu .menu_list{/*agregamos el flex colum para ordenar las clases en fila*/
+  flex-direction: column;
+}
+.pancake_menu .menu_list .menu_item{/*agregamos el width auto ajustable*/
+  width: auto;
+}
 /* ボタンコンポーネント */
 .btn {
   padding: 10px 20px;
