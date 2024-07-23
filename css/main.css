@@ -1,4 +1,4 @@
-@import 'bulma/css/bulma.css';
+
 html {
   height: 100%;
 }
@@ -273,7 +273,9 @@ body {
   font-size: 18px;
   font-family: 'Noto Serif JP', serif;
 }
-
+.pancake {
+  width: 100%;
+}
 /* ボタンコンポーネント */
 .btn {
   padding: 10px 20px;
