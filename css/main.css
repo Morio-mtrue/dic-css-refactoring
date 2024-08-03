@@ -230,8 +230,12 @@ body {
   padding: 20px;
   margin-top: 50px;
 }
+/* op*/
+.pancake_menu .menu_item {
+  width: 100%;
+}
 
-/* メニューアイテムコンポーネント */
+
 .menu_list {
   display: flex;
   justify-content: space-between;
