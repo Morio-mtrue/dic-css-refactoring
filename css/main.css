@@ -230,6 +230,9 @@ body {
   padding: 20px;
   margin-top: 50px;
 }
+.pancake_menu .menu_item {
+  width: 100%;
+}
 
 /* メニューアイテムコンポーネント */
 .menu_list {
