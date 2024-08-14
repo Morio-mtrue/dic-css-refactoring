@@ -243,6 +243,10 @@ body {
   padding-bottom: 50px;
 }
 
+.pancake_menu .menu_item {
+  width: 100%;
+}
+
 .menu_item {
   width: 49%;
   display: flex;
