@@ -1,289 +1,277 @@
-@import 'bulma/css/bulma.css';
+@import  'bulma/css/bulma.css' ;
 html {
-  height: 100%;
+  altura :  100 % ;
 }
-body {
-  position: relative;
-  padding-bottom: 75px;
-  min-height: 100%;
+cuerpo {
+  posición : relativa;
+  fondo de relleno :  75 px ;
+  altura mínima :  100 % ;
 }
-.center {
-  text-align: center;
+. centro {
+  alineación de texto : centro;
 }
-
-/* header */
-.header_nav {
-  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  height: 60px;
-  position: fixed;
-  top: 0;
-  width: 100%;
+/* encabezado */
+. encabezado_nav {
+  fondo :  gradiente lineal ( 90 grados ,  # fff  20 % ,  rgba ( 0 , 0 , 0 , .6 ) 60 % );
+  pantalla : flexible;
+  justificar contenido : espacio entre;
+  alinear elementos : estirar;
+  altura :  60 píxeles ;
+  posición : fija;
+  arriba :  0 ;
+  ancho :  100 % ;
 }
-.logo {
-  width: 120px;
-  display: flex;
-  align-items: center;
+. logotipo {
+  ancho :  120 píxeles ;
+  pantalla : flexible;
+  alinear elementos : centro;
 }
-.logo img{
-  width: 100%;
+. imagen del logotipo  {
+  ancho :  100 % ;
 }
-.global_nav {
-  display: flex;
-  justify-content: flex-end;
-  align-items: stretch;
+. navegación_global {
+  pantalla : flexible;
+  justificar-contenido : extremo flexible;
+  alinear elementos : estirar;
 }
-.global_nav_item {
-  padding: 0 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #fff;
-  text-decoration: none;
+. global_nav_item {
+  relleno :  0  20 px ;
+  pantalla : flexible;
+  dirección flexible : columna;
+  justificar contenido : centro;
+  color :  #fff ; _
+  decoración de texto : ninguna;
 }
-.global_nav_item:hover {
-  background: #fff;
-  color: #42210b;
+. global_nav_item : flotar {
+  fondo :  #fff ; _
+  color :  # 42210b ;
 }
-
-/* footer */
-.footer {
-  width: 100%;
-  background: #251e19;
-  position: absolute;
-  bottom: -75px;
-  padding-bottom: 10px;
-  height: 75px;
+/* pie de página */
+. pie de página {
+  ancho :  100 % ;
+  fondo :  # 251e19 ;
+  posición : absoluta;
+  abajo :  -75 px ;
+  fondo de relleno :  10 px ;
+  altura :  75 píxeles ;
 }
-.footer_nav {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
+. pie de página_nav {
+  pantalla : flexible;
+  justificar contenido : centro;
+  margen inferior :  10 px ;
 }
-.footer_nav_item {
-  padding: 0 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: white;
-  text-decoration: none;
-  font-size: 15px;
+. footer_nav_item {
+  relleno :  0  10 px ;
+  pantalla : flexible;
+  dirección flexible : columna;
+  justificar contenido : centro;
+  color blanco ;
+  decoración de texto : ninguna;
+  tamaño de fuente :  15 px ;
 }
-.footer_logo {
-  width: 80px;
+. logotipo_pie de página {
+  ancho :  80 píxeles ;
 }
-.footer_right {
-  color: white;
-  text-align: center;
-  font-size: 10px;
+. pie de página_derecho {
+  color blanco ;
+  alineación de texto : centro;
+  tamaño de fuente :  10 px ;
 }
-
 /* キービジュアル */
-.key {
-  height: 500px;
-  background: center / cover no-repeat url("../images/sample_key.jpg");
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-family: 'Noto Serif JP', serif;
+. llave {
+  altura :  500 píxeles ;
+  fondo : URL central / portada que no se repite ( "../images/sample_key.jpg" );
+  pantalla : flexible;
+  dirección flexible : columna;
+  justificar contenido : centro;
+  familia de fuentes :  'Noto Serif JP' , serif;
 }
-.key h1{
-  font-size: 2.5rem;
+. clave  h1 {
+  tamaño de fuente :  2,5 rem ;
 }
-
 /* コンセプトセクション */
-.concept_inner {
-  display: flex;
-  justify-content: space-between;
+. concepto_interior {
+  pantalla : flexible;
+  justificar contenido : espacio entre;
 }
-.concept_content {
-  width: 60%;
+. contenido_concepto {
+  ancho :  60 % ;
 }
-.concept_image {
-  width: 35%;
+. imagen_concepto {
+  ancho :  35 % ;
 }
-
 /* セクション共通 */
-.section_inner {
-  padding: 50px 10% 30px;
+. sección_interior {
+  relleno :  50 px  10 %  30 px ;
 }
-.section_title {
-  font-family: 'Noto Serif JP', serif;
-  text-align: center;
-  margin-bottom: 50px;
+. sección de título {
+  familia de fuentes :  'Noto Serif JP' , serif;
+  alineación de texto : centro;
+  margen inferior :  50 px ;
 }
-
-/* 店舗情報セクション */
-.info {
-  display: flex;
+/* 舗情報セクション */
+. información {
+  pantalla : flexible;
 }
-.info_title {
-  width: 80px;
+. título_información {
+  ancho :  80 píxeles ;
 }
-.frame_area {
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%;
+. área_marco {
+  posición : relativa;
+  ancho :  100 % ;
+  parte superior acolchada :  56,25 % ;
 }
-.frame_child{
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
+. marco_niño {
+  posición : absoluta;
+  arriba :  0 ;
+  derecha :  0 ;
+  ancho :  100 % ;
+  altura :  100 % ;
 }
-
 /* メニューセクション */
-.menu_section {
-  background: url("../images/sample_menu_bg.jpg") no-repeat bottom;
-  background-attachment: fixed;
+. sección_menú {
+  fondo :  URL ( "../images/sample_menu_bg.jpg" ) parte inferior sin repetición;
+  adjunto de fondo : fijo;
 }
-.menu_title {
-  display: inline-block;
-  font-family: 'Noto Serif JP', serif;
-  text-align: center;
-  font-size: 1.5rem;
-  color: #42210b;
-  border-bottom: solid #42210b 1px;
-  margin-bottom: 20px;
+. título_menú {
+  pantalla : bloque en línea;
+  familia de fuentes :  'Noto Serif JP' , serif;
+  alineación de texto : centro;
+  tamaño de fuente :  1,5 rem ;
+  color :  # 42210b ;
+  borde inferior : sólido # 42210b  1 px ;
+  margen inferior :  20 px ;
 }
-
-.coffee_menu {
-  background: #fff;
-  padding: 20px;
+. menú_café {
+  fondo :  #fff ; _
+  relleno :  20 píxeles ;
 }
-.caffee_menu_list_item {
-  width: 49%;
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  padding: 10px;
+. cafe_menu_list_item {
+  ancho :  49 % ;
+  pantalla : flexible;
+  dirección flexible : fila inversa;
+  alinear elementos : centro;
+  relleno :  10 píxeles ;
 }
-.caffee_menu_image {
-  width: 20%;
-  border-radius: 50%;
+. cafe_menu_image {
+  ancho :  20 % ;
+  radio de frontera :  50 % ;
 }
-.caffee_menu_content {
-  width: 80%;
-  padding: 10px;
+. cafe_menu_content {
+  ancho :  80 % ;
+  relleno :  10 píxeles ;
 }
-
-
 /* メニューページ */
-.menu_key {
-  height: 100px;
-  background: url("../images/sample_key.jpg") no-repeat center;
-  background-size: cover;
+. tecla de menu {
+  altura :  100 píxeles ;
+  fondo :  URL ( "../images/sample_key.jpg" ) centro sin repetición;
+  tamaño de fondo : portada;
 }
-.wrapper {
-  display: flex;
+. envoltorio {
+  pantalla : flexible;
 }
-.main {
-  padding: 0 0 0 50px;
-  width: calc(100% - 200px);
+. principal {
+  relleno :  0  0  0  50 px ;
+  ancho :  calc ( 100 %  -  200 px );
 }
-
 /* メニューページ - サイドメニュー */
-.side_menu {
-  width: 200px;
+. menú lateral {
+  ancho :  200 píxeles ;
 }
-.side_menu_title {
-  font-family: 'Noto Serif JP', serif;
-  font-size: 25px;
-  padding-left: 10px;
+. título_menú lateral {
+  familia de fuentes :  'Noto Serif JP' , serif;
+  tamaño de fuente :  25 px ;
+  relleno-izquierda :  10 px ;
 }
-.side_menu_item {
-  padding: 20px 10px;
-  border-bottom: solid #42210b 1px;
-  display: block;
-  text-decoration: none;
+. side_menu_item {
+  relleno :  20 px  10 px ;
+  borde inferior : sólido # 42210b  1 px ;
+  bloqueo de pantalla ;
+  decoración de texto : ninguna;
 }
-.side_menu_item:hover {
-  background: rgba(83,71,65,.3);
+. side_menu_item : desplazarse {
+  fondo :  rgba ( 83 , 71 , 65 , .3 );
 }
-.side_ad {
-  color: #fff;
-  background: rgba(83,71,65,.7);
-  padding: 20px;
-  margin: 30px 0;
+. anuncio_lateral {
+  color :  #fff ; _
+  fondo :  rgba ( 83 , 71 , 65 , .7 );
+  relleno :  20 píxeles ;
+  margen :  30 px  0 ;
 }
-
 /* メニューページ - メイン */
-.menu_image {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
+. imagen_menú {
+  ancho :  100 % ;
+  altura :  500 píxeles ;
+  ajuste de objeto : cubierta;
 }
-.menu_name {
-  font-family: 'Noto Serif JP', serif;
+. nombre_menú {
+  familia de fuentes :  'Noto Serif JP' , serif;
 }
-.menu_price {
-  font-family: 'Noto Serif JP', serif;
-  font-size: 20px;
-  margin-bottom: 30px;
+. precio_menú {
+  familia de fuentes :  'Noto Serif JP' , serif;
+  tamaño de fuente :  20 px ;
+  margen inferior :  30 px ;
+}
+. menú_panqueques {
+  fondo :  rgba ( 83 , 71 , 65 , .5 );
+  relleno :  20 píxeles ;
+  margen superior :  50 px ;
+}
+/*op*/
+. menú_panqueques . opción del menú {
+  ancho :  100 % ;
 }
 
-.pancake_menu {
-  background: rgba(83,71,65,.5);
-  padding: 20px;
-  margin-top: 50px;
-}
 
 /* メニューアイテムコンポーネント */
-.menu_list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+. lista_menú {
+  pantalla : flexible;
+  justificar contenido : espacio entre;
+  envoltura flexible : envoltura;
 }
-
-.menu_list_recommended {
+. menu_list_recomendado {
   /* トップページのメニューリストには別途paddingの設定（マルチクラス） */
-  padding-bottom: 50px;
+  fondo de relleno :  50 px ;
 }
-
-.menu_item {
-  width: 49%;
-  display: flex;
-  flex-direction: row-reverse;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
-  margin-bottom: 20px;
+. opción del menú {
+  ancho :  49 % ;
+  pantalla : flexible;
+  dirección flexible : fila inversa;
+  sombra de cuadro :  2 px  2 px  5 px  rgba ( 0 , 0 , 0 , 0,4 );
+  margen inferior :  20 px ;
 }
-.menu_item_content {
-  width: 45%;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: #fff;
+. menu_item_content {
+  ancho :  45 % ;
+  relleno :  10 píxeles ;
+  pantalla : flexible;
+  dirección flexible : columna;
+  justificar contenido : espacio entre;
+  fondo :  #fff ; _
 }
-.menu_item_image {
-  width: 55%;
-  object-fit: cover;
-  height: 300px;
+. menu_item_image {
+  ancho :  55 % ;
+  ajuste de objeto : cubierta;
+  altura :  300 píxeles ;
 }
-.menu_item_price {
-  color: #42210b;
-  font-size: 18px;
-  text-align: right;
+. menu_item_price {
+  color :  # 42210b ;
+  tamaño de fuente :  18 px ;
+  alineación de texto : derecha;
 }
-
-.menu_item_title {
-  font-size: 18px;
-  font-family: 'Noto Serif JP', serif;
+. menú_item_title {
+  tamaño de fuente :  18 px ;
+  familia de fuentes :  'Noto Serif JP' , serif;
 }
-
 /* ボタンコンポーネント */
-.btn {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
+. pulsar {
+  relleno :  10 px  20 px ;
+  borde : ninguno;
+  radio del borde :  5 px ;
 }
-.btn-detail {
-  background:#2e58a6;
-  color: #fff;
+. btn-detalle {
+  fondo : # 2e58a6 ;
+  color :  #fff ; _
 }
-.btn-disabled {
-  background: rgba(0,0,0,0.3);
+. btn-deshabilitado {
+  fondo :  rgba ( 0 , 0 , 0 , 0,3 );
 }
