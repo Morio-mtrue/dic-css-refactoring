@@ -1,19 +1,22 @@
 @import 'bulma/css/bulma.css';
+
 html {
   height: 100%;
 }
+
 body {
   position: relative;
   padding-bottom: 75px;
   min-height: 100%;
 }
+
 .center {
   text-align: center;
 }
 
 /* header */
 .header_nav {
-  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, .6) 60%);
   display: flex;
   justify-content: space-between;
   align-items: stretch;
@@ -22,19 +25,23 @@ body {
   top: 0;
   width: 100%;
 }
+
 .logo {
   width: 120px;
   display: flex;
   align-items: center;
 }
-.logo img{
+
+.logo img {
   width: 100%;
 }
+
 .global_nav {
   display: flex;
   justify-content: flex-end;
   align-items: stretch;
 }
+
 .global_nav_item {
   padding: 0 20px;
   display: flex;
@@ -43,6 +50,7 @@ body {
   color: #fff;
   text-decoration: none;
 }
+
 .global_nav_item:hover {
   background: #fff;
   color: #42210b;
@@ -57,11 +65,13 @@ body {
   padding-bottom: 10px;
   height: 75px;
 }
+
 .footer_nav {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
 }
+
 .footer_nav_item {
   padding: 0 10px;
   display: flex;
@@ -71,9 +81,11 @@ body {
   text-decoration: none;
   font-size: 15px;
 }
+
 .footer_logo {
   width: 80px;
 }
+
 .footer_right {
   color: white;
   text-align: center;
@@ -89,7 +101,8 @@ body {
   justify-content: center;
   font-family: 'Noto Serif JP', serif;
 }
-.key h1{
+
+.key h1 {
   font-size: 2.5rem;
 }
 
@@ -98,9 +111,11 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .concept_content {
   width: 60%;
 }
+
 .concept_image {
   width: 35%;
 }
@@ -109,6 +124,7 @@ body {
 .section_inner {
   padding: 50px 10% 30px;
 }
+
 .section_title {
   font-family: 'Noto Serif JP', serif;
   text-align: center;
@@ -119,15 +135,18 @@ body {
 .info {
   display: flex;
 }
+
 .info_title {
   width: 80px;
 }
+
 .frame_area {
   position: relative;
   width: 100%;
   padding-top: 56.25%;
 }
-.frame_child{
+
+.frame_child {
   position: absolute;
   top: 0;
   right: 0;
@@ -140,6 +159,7 @@ body {
   background: url("../images/sample_menu_bg.jpg") no-repeat bottom;
   background-attachment: fixed;
 }
+
 .menu_title {
   display: inline-block;
   font-family: 'Noto Serif JP', serif;
@@ -154,6 +174,7 @@ body {
   background: #fff;
   padding: 20px;
 }
+
 .caffee_menu_list_item {
   width: 49%;
   display: flex;
@@ -161,10 +182,12 @@ body {
   align-items: center;
   padding: 10px;
 }
+
 .caffee_menu_image {
   width: 20%;
   border-radius: 50%;
 }
+
 .caffee_menu_content {
   width: 80%;
   padding: 10px;
@@ -177,9 +200,11 @@ body {
   background: url("../images/sample_key.jpg") no-repeat center;
   background-size: cover;
 }
+
 .wrapper {
   display: flex;
 }
+
 .main {
   padding: 0 0 0 50px;
   width: calc(100% - 200px);
@@ -189,23 +214,27 @@ body {
 .side_menu {
   width: 200px;
 }
+
 .side_menu_title {
   font-family: 'Noto Serif JP', serif;
   font-size: 25px;
   padding-left: 10px;
 }
+
 .side_menu_item {
   padding: 20px 10px;
   border-bottom: solid #42210b 1px;
   display: block;
   text-decoration: none;
 }
+
 .side_menu_item:hover {
-  background: rgba(83,71,65,.3);
+  background: rgba(83, 71, 65, .3);
 }
+
 .side_ad {
   color: #fff;
-  background: rgba(83,71,65,.7);
+  background: rgba(83, 71, 65, .7);
   padding: 20px;
   margin: 30px 0;
 }
@@ -216,9 +245,11 @@ body {
   height: 500px;
   object-fit: cover;
 }
+
 .menu_name {
   font-family: 'Noto Serif JP', serif;
 }
+
 .menu_price {
   font-family: 'Noto Serif JP', serif;
   font-size: 20px;
@@ -226,7 +257,7 @@ body {
 }
 
 .pancake_menu {
-  background: rgba(83,71,65,.5);
+  background: rgba(83, 71, 65, .5);
   padding: 20px;
   margin-top: 50px;
 }
@@ -236,6 +267,9 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  list-style-type: none;
+  /* Quita los puntos/bolitas de la lista */
+  padding: 0;
 }
 
 .menu_list_recommended {
@@ -247,9 +281,11 @@ body {
   width: 49%;
   display: flex;
   flex-direction: row-reverse;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   margin-bottom: 20px;
+  
 }
+
 .menu_item_content {
   width: 45%;
   padding: 10px;
@@ -258,11 +294,13 @@ body {
   justify-content: space-between;
   background: #fff;
 }
+
 .menu_item_image {
   width: 55%;
   object-fit: cover;
   height: 300px;
 }
+
 .menu_item_price {
   color: #42210b;
   font-size: 18px;
@@ -280,10 +318,67 @@ body {
   border: none;
   border-radius: 5px;
 }
+
 .btn-detail {
-  background:#2e58a6;
+  background: #2e58a6;
   color: #fff;
 }
+
 .btn-disabled {
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para la lista */
+/* Clases específicas para el menú de pancakes */
+.pancake_menu_section {
+  background: rgba(83, 71, 65, .5);
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.pancake_menu_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.pancake_menu_item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+.pancake_menu_item_content {
+  width: 45%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.pancake_menu_item_image {
+  width: 55%;
+  object-fit: cover;
+  height: 300px;
+}
+
+/* Botones */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-detail {
+  background: #2e58a6;
+  color: #fff;
+}
+
+.btn-disabled {
+  background: rgba(0, 0, 0, 0.3);
 }
