@@ -226,6 +226,8 @@ body {
 }
 
 .pancake_menu {
+  display: flex;
+  flex-direction: column;
   background: rgba(83,71,65,.5);
   padding: 20px;
   margin-top: 50px;
@@ -234,8 +236,9 @@ body {
 /* メニューアイテムコンポーネント */
 .menu_list {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /*justify-content: space-between;
+  flex-wrap: wrap;*/
 }
 
 .menu_list_recommended {
@@ -244,7 +247,7 @@ body {
 }
 
 .menu_item {
-  width: 49%;
+  width: 100%;
   display: flex;
   flex-direction: row-reverse;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
