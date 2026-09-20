@@ -243,6 +243,14 @@ body {
   padding-bottom: 50px;
 }
 
+.menu_list_pancake {
+  /* メニューページのパンケーキメニューは1件ずつ縦に並べる（マルチクラス） */
+  display: block;
+}
+.menu_list_pancake .menu_item {
+  width: 100%;
+}
+
 .menu_item {
   width: 49%;
   display: flex;
